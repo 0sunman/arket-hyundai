@@ -163,108 +163,108 @@ const Header = () =>{
                                         </button>
                                         <div role="treeitem" className="category-group is-visible">
                                             <h3 className="a-heading-3">
-                                            <a href="https://www.arket.com/ko-kr/women/all.html" target="_self" className="a-link"className>
+                                            <a href="https://www.arket.com/ko-kr/women/all.html" target="_self" className="a-link">
                                             Clothing
                                             </a>
                                             </h3>
                                             <ul className="subcategories">
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/women/all.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/women/all.html" target="_self" className="a-link">
                                                 의류 모두보기
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/women/outerwears.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/women/outerwears.html" target="_self" className="a-link">
                                                 아우터웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/women/knitwear.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/women/knitwear.html" target="_self" className="a-link">
                                                 니트웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/women/shirts-blouses.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/women/shirts-blouses.html" target="_self" className="a-link">
                                                 셔츠 &amp; 블라우스
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/women/tops.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/women/tops.html" target="_self" className="a-link">
                                                 탑
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/tops/t-shirts.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/tops/t-shirts.html" target="_self" className="a-link">
                                                 티셔츠
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/women/Trousers.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/women/Trousers.html" target="_self" className="a-link">
                                                 트라우저
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/women/jeans.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/women/jeans.html" target="_self" className="a-link">
                                                 진
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/women/skirts.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/women/skirts.html" target="_self" className="a-link">
                                                 스커트
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/women/dresses.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/women/dresses.html" target="_self" className="a-link">
                                                 드레스
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/women/tailoring.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/women/tailoring.html" target="_self" className="a-link">
                                                 테일러링
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/women/leathercollection.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/women/leathercollection.html" target="_self" className="a-link">
                                                 레더 컬렉션
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/outerwears/fleece-and-pile.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/outerwears/fleece-and-pile.html" target="_self" className="a-link">
                                                 플리스 &amp; 파일
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/tops/sweatshirts-hoodies.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/tops/sweatshirts-hoodies.html" target="_self" className="a-link">
                                                 스웻셔츠&amp;후디
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/women/sportswear.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/women/sportswear.html" target="_self" className="a-link">
                                                 스포츠웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/sportswear/yoga.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/sportswear/yoga.html" target="_self" className="a-link">
                                                 요가
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/women/loungewear.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/women/loungewear.html" target="_self" className="a-link">
                                                 라운지웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/women/underwear.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/women/underwear.html" target="_self" className="a-link">
                                                 언더웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/underwear/socks.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/underwear/socks.html" target="_self" className="a-link">
                                                 삭스
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/women/swimwear.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/women/swimwear.html" target="_self" className="a-link">
                                                 스윔웨어
                                                 </a>
                                             </li>
@@ -283,43 +283,43 @@ const Header = () =>{
                                         </button>
                                         <div role="treeitem" className="category-group is-visible">
                                             <h3 className="a-heading-3">
-                                            <a href="https://www.arket.com/ko-kr/women/shoes.html" target="_self" className="a-link"className>
+                                            <a href="https://www.arket.com/ko-kr/women/shoes.html" target="_self" className="a-link">
                                             Shoes
                                             </a>
                                             </h3>
                                             <ul className="subcategories">
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/shoes.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/shoes.html" target="_self" className="a-link">
                                                 슈즈 모두보기
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/shoes/boots.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/shoes/boots.html" target="_self" className="a-link">
                                                 부츠
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/shoes/loafers-and-mules.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/shoes/loafers-and-mules.html" target="_self" className="a-link">
                                                 로퍼 &amp; 뮬
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/shoes/heels.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/shoes/heels.html" target="_self" className="a-link">
                                                 힐
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/shoes/flats.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/shoes/flats.html" target="_self" className="a-link">
                                                 플랫
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/shoes/sandals.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/shoes/sandals.html" target="_self" className="a-link">
                                                 샌들
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/shoes/Slippers.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/shoes/Slippers.html" target="_self" className="a-link">
                                                 슬리퍼
                                                 </a>
                                             </li>
@@ -329,7 +329,7 @@ const Header = () =>{
                                     <div className="folder-category ">
                                         <button className="a-button a-button-nostyle folder-link is-open">
                                         <span>
-                                        <span className="title"className>
+                                        <span className="title">
                                         Bags
                                         </span>
                                         <span className="a-icon-plus-circle"></span>
@@ -338,28 +338,28 @@ const Header = () =>{
                                         </button>
                                         <div role="treeitem" className="category-group is-visible">
                                             <h3 className="a-heading-3">
-                                            <a href="https://www.arket.com/ko-kr/women/bags-and-accessories/bags.html" target="_self" className="a-link"className>
+                                            <a href="https://www.arket.com/ko-kr/women/bags-and-accessories/bags.html" target="_self" className="a-link">
                                             Bags
                                             </a>
                                             </h3>
                                             <ul className="subcategories">
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/bags-and-accessories/bags.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/bags-and-accessories/bags.html" target="_self" className="a-link">
                                                 가방 모두보기
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/bags/bags-crossbody.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/bags/bags-crossbody.html" target="_self" className="a-link">
                                                 크로스바디 백
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/bags-and-accessories/tote-bags.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/bags-and-accessories/tote-bags.html" target="_self" className="a-link">
                                                 토트백
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/travel.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/travel.html" target="_self" className="a-link">
                                                 트래블백
                                                 </a>
                                             </li>
@@ -369,7 +369,7 @@ const Header = () =>{
                                     <div className="folder-category ">
                                         <button className="a-button a-button-nostyle folder-link is-open">
                                         <span>
-                                        <span className="title"className>
+                                        <span className="title">
                                         Accessories
                                         </span>
                                         <span className="a-icon-plus-circle"></span>
@@ -378,43 +378,43 @@ const Header = () =>{
                                         </button>
                                         <div role="treeitem" className="category-group is-visible">
                                             <h3 className="a-heading-3">
-                                            <a href="https://www.arket.com/ko-kr/women/bags-and-accessories.html" target="_self" className="a-link"className>
+                                            <a href="https://www.arket.com/ko-kr/women/bags-and-accessories.html" target="_self" className="a-link">
                                             Accessories
                                             </a>
                                             </h3>
                                             <ul className="subcategories">
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/bags-and-accessories.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/bags-and-accessories.html" target="_self" className="a-link">
                                                 액세서리 모두보기
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/bags-and-accessories/hats-and-gloves.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/bags-and-accessories/hats-and-gloves.html" target="_self" className="a-link">
                                                 모자 &amp; 장갑
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/bags-and-accessories/scarves.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/bags-and-accessories/scarves.html" target="_self" className="a-link">
                                                 스카프
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/bags-and-accessories/jewelries.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/bags-and-accessories/jewelries.html" target="_self" className="a-link">
                                                 주얼리
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/bags-and-accessories/hair-accessories.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/bags-and-accessories/hair-accessories.html" target="_self" className="a-link">
                                                 헤어 액세서리
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/women/bags-and-accessories/belts.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/women/bags-and-accessories/belts.html" target="_self" className="a-link">
                                                 벨트
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/a-new-collection.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/a-new-collection.html" target="_self" className="a-link">
                                                 도그
                                                 </a>
                                             </li>
@@ -427,19 +427,19 @@ const Header = () =>{
                             <div data-title="Men" role="treeitem" aria-hidden="true" className="category-wrapper">
                                 <div className="category-menu">
                                 <div className="curated-categories">
-                                    <a href="https://www.arket.com/ko-kr/men/new-arrivals.html" target="_self" className="a-link department-link "className>
+                                    <a href="https://www.arket.com/ko-kr/men/new-arrivals.html" target="_self" className="a-link department-link ">
                                     New Arrivals
                                     </a>
-                                    <a href="/ko-kr/men/most-popular.html" target="_self" className="a-link department-link "className>
+                                    <a href="/ko-kr/men/most-popular.html" target="_self" className="a-link department-link ">
                                     MOST POPULAR
                                     </a>
-                                    <a href="/ko-kr/men/basics.html" target="_self" className="a-link department-link "className>
+                                    <a href="/ko-kr/men/basics.html" target="_self" className="a-link department-link ">
                                     BASICS
                                     </a>
                                     <div className="folder-category ">
                                         <button className="a-button a-button-nostyle folder-link">
                                         <span>
-                                        <span className="title"className>
+                                        <span className="title">
                                         Campaigns
                                         </span>
                                         <span className="a-icon-plus-circle"></span>
@@ -448,45 +448,45 @@ const Header = () =>{
                                         </button>
                                         <div role="treeitem" className="category-group is-underneath">
                                             <h3 className="a-heading-3">
-                                            <a href="/ko-kr/men/campaigns.html" target="_self" className="a-link"className>
+                                            <a href="/ko-kr/men/campaigns.html" target="_self" className="a-link">
                                             Campaigns
                                             </a>
                                             </h3>
                                             <ul className="subcategories">
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/c/functional-touches.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/c/functional-touches.html" target="_self" className="a-link">
                                                 Functional touches
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/gifts/men.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/gifts/men.html" target="_self" className="a-link">
                                                 Holiday Market
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/c/the-codes-of-winter.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/c/the-codes-of-winter.html" target="_self" className="a-link">
                                                 The codes of winter
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/c/aw-2022-polar-light-down.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/c/aw-2022-polar-light-down.html" target="_self" className="a-link">
                                                 A/W 2022 Polar Light™ Down 
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/c/the-autumn-collection.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/c/the-autumn-collection.html" target="_self" className="a-link">
                                                 The autumn collection
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/c/a-new-code.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/c/a-new-code.html" target="_self" className="a-link">
                                                 A new code
                                                 </a>
                                             </li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <a href="https://www.arket.com/ko-kr/gifts/men.html" target="_self" className="a-link department-link "className>
+                                    <a href="https://www.arket.com/ko-kr/gifts/men.html" target="_self" className="a-link department-link ">
                                     HOLIDAY MARKET
                                     </a>
                                 </div>
@@ -494,7 +494,7 @@ const Header = () =>{
                                     <div className="folder-category ">
                                         <button className="a-button a-button-nostyle folder-link is-open">
                                         <span>
-                                        <span className="title"className>
+                                        <span className="title">
                                         Clothing
                                         </span>
                                         <span className="a-icon-plus-circle"></span>
@@ -503,88 +503,88 @@ const Header = () =>{
                                         </button>
                                         <div role="treeitem" className="category-group is-visible">
                                             <h3 className="a-heading-3">
-                                            <a href="https://www.arket.com/ko-kr/men/all.html" target="_self" className="a-link"className>
+                                            <a href="https://www.arket.com/ko-kr/men/all.html" target="_self" className="a-link">
                                             Clothing
                                             </a>
                                             </h3>
                                             <ul className="subcategories">
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/all.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/all.html" target="_self" className="a-link">
                                                 의류 모두보기
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/outerwears.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/outerwears.html" target="_self" className="a-link">
                                                 아우터웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/knitwear.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/knitwear.html" target="_self" className="a-link">
                                                 니트웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/men/shirts/overshirts.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/men/shirts/overshirts.html" target="_self" className="a-link">
                                                 오버셔츠
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/shirts.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/shirts.html" target="_self" className="a-link">
                                                 셔츠
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/T-shirts.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/T-shirts.html" target="_self" className="a-link">
                                                 티셔츠
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/sweatshirts-and-hoodies.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/sweatshirts-and-hoodies.html" target="_self" className="a-link">
                                                 스웻셔츠&amp;후디
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/trousers.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/trousers.html" target="_self" className="a-link">
                                                 트라우저
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/jeans.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/jeans.html" target="_self" className="a-link">
                                                 진
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/active-apparel.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/active-apparel.html" target="_self" className="a-link">
                                                 액티브 어패럴
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/pile-fleece.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/pile-fleece.html" target="_self" className="a-link">
                                                 플리스&amp;파일
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/Shorts.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/Shorts.html" target="_self" className="a-link">
                                                 쇼츠
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/socks.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/socks.html" target="_self" className="a-link">
                                                 삭스
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/underwear.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/underwear.html" target="_self" className="a-link">
                                                 언더웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/loungewear.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/loungewear.html" target="_self" className="a-link">
                                                 라운지웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/swimwear.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/swimwear.html" target="_self" className="a-link">
                                                 스윔웨어
                                                 </a>
                                             </li>
@@ -594,7 +594,7 @@ const Header = () =>{
                                     <div className="folder-category ">
                                         <button className="a-button a-button-nostyle folder-link is-open">
                                         <span>
-                                        <span className="title"className>
+                                        <span className="title">
                                         Shoes
                                         </span>
                                         <span className="a-icon-plus-circle"></span>
@@ -603,33 +603,33 @@ const Header = () =>{
                                         </button>
                                         <div role="treeitem" className="category-group is-visible">
                                             <h3 className="a-heading-3">
-                                            <a href="https://www.arket.com/ko-kr/men/shoes.html" target="_self" className="a-link"className>
+                                            <a href="https://www.arket.com/ko-kr/men/shoes.html" target="_self" className="a-link">
                                             Shoes
                                             </a>
                                             </h3>
                                             <ul className="subcategories">
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/men/shoes.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/men/shoes.html" target="_self" className="a-link">
                                                 슈즈 모두보기
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/men/shoes/leather-shoes.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/men/shoes/leather-shoes.html" target="_self" className="a-link">
                                                 레더슈즈
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/men/shoes/boots.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/men/shoes/boots.html" target="_self" className="a-link">
                                                 부츠
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/men/shoes/sneakers.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/men/shoes/sneakers.html" target="_self" className="a-link">
                                                 스니커즈
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/men/shoes/slides.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/men/shoes/slides.html" target="_self" className="a-link">
                                                 슬리퍼
                                                 </a>
                                             </li>
@@ -639,7 +639,7 @@ const Header = () =>{
                                     <div className="folder-category ">
                                         <button className="a-button a-button-nostyle folder-link is-open">
                                         <span>
-                                        <span className="title"className>
+                                        <span className="title">
                                         Bags
                                         </span>
                                         <span className="a-icon-plus-circle"></span>
@@ -648,23 +648,23 @@ const Header = () =>{
                                         </button>
                                         <div role="treeitem" className="category-group is-visible">
                                             <h3 className="a-heading-3">
-                                            <a href="#" target="_self" className="a-link"className>
+                                            <a href="#" target="_self" className="a-link">
                                             Bags
                                             </a>
                                             </h3>
                                             <ul className="subcategories">
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/bags/bags-all.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/bags/bags-all.html" target="_self" className="a-link">
                                                 가방 모두보기
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/bags/tote-bags.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/bags/tote-bags.html" target="_self" className="a-link">
                                                 토트백
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/men/bags/backpacks.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/men/bags/backpacks.html" target="_self" className="a-link">
                                                 백팩
                                                 </a>
                                             </li>
@@ -674,7 +674,7 @@ const Header = () =>{
                                     <div className="folder-category ">
                                         <button className="a-button a-button-nostyle folder-link is-open">
                                         <span>
-                                        <span className="title"className>
+                                        <span className="title">
                                         Accessories
                                         </span>
                                         <span className="a-icon-plus-circle"></span>
@@ -683,43 +683,43 @@ const Header = () =>{
                                         </button>
                                         <div role="treeitem" className="category-group is-visible">
                                             <h3 className="a-heading-3">
-                                            <a href="https://www.arket.com/ko-kr/men/accessories.html" target="_self" className="a-link"className>
+                                            <a href="https://www.arket.com/ko-kr/men/accessories.html" target="_self" className="a-link">
                                             Accessories
                                             </a>
                                             </h3>
                                             <ul className="subcategories">
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/men/accessories.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/men/accessories.html" target="_self" className="a-link">
                                                 액세서리 모두보기
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/men/accessories/hats.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/men/accessories/hats.html" target="_self" className="a-link">
                                                 모자
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/men/accessories/scarves.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/men/accessories/scarves.html" target="_self" className="a-link">
                                                 스카프
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/men/accessories/belts.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/men/accessories/belts.html" target="_self" className="a-link">
                                                 벨트
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/men/accessories/gloves.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/men/accessories/gloves.html" target="_self" className="a-link">
                                                 장갑
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/men/accessories/beanies.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/men/accessories/beanies.html" target="_self" className="a-link">
                                                 비니
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/a-new-collection.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/a-new-collection.html" target="_self" className="a-link">
                                                 도그
                                                 </a>
                                             </li>
@@ -732,19 +732,19 @@ const Header = () =>{
                             <div data-title="Children" role="treeitem" aria-hidden="true" className="category-wrapper">
                                 <div className="category-menu">
                                 <div className="curated-categories">
-                                    <a href="/ko-kr/children/new-arrivals.html" target="_self" className="a-link department-link "className>
+                                    <a href="/ko-kr/children/new-arrivals.html" target="_self" className="a-link department-link ">
                                     New Arrivals
                                     </a>
-                                    <a href="/ko-kr/children/most-popular.html" target="_self" className="a-link department-link "className>
+                                    <a href="/ko-kr/children/most-popular.html" target="_self" className="a-link department-link ">
                                     MOST POPULAR
                                     </a>
-                                    <a href="https://www.arket.com/ko-kr/children/accessories.html" target="_self" className="a-link department-link "className>
+                                    <a href="https://www.arket.com/ko-kr/children/accessories.html" target="_self" className="a-link department-link ">
                                     ACCESSORIES
                                     </a>
                                     <div className="folder-category ">
                                         <button className="a-button a-button-nostyle folder-link">
                                         <span>
-                                        <span className="title"className>
+                                        <span className="title">
                                         Campaigns
                                         </span>
                                         <span className="a-icon-plus-circle"></span>
@@ -753,40 +753,40 @@ const Header = () =>{
                                         </button>
                                         <div role="treeitem" className="category-group is-underneath">
                                             <h3 className="a-heading-3">
-                                            <a href="#" target="_self" className="a-link"className>
+                                            <a href="#" target="_self" className="a-link">
                                             Campaigns
                                             </a>
                                             </h3>
                                             <ul className="subcategories">
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/gifts/children.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/gifts/children.html" target="_self" className="a-link">
                                                 Holiday Market
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/children/c/aw-2022-polar-light-down.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/children/c/aw-2022-polar-light-down.html" target="_self" className="a-link">
                                                 A/W 2022 Polar Light™ Down 
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/children/c/warm-and-cosy.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/children/c/warm-and-cosy.html" target="_self" className="a-link">
                                                 Warm and cosy
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/children/c/playful-classics.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/children/c/playful-classics.html" target="_self" className="a-link">
                                                 Playful classics
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/children/c/back-to-school-again.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/children/c/back-to-school-again.html" target="_self" className="a-link">
                                                 Back to school
                                                 </a>
                                             </li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <a href="https://www.arket.com/ko-kr/gifts/children.html" target="_self" className="a-link department-link "className>
+                                    <a href="https://www.arket.com/ko-kr/gifts/children.html" target="_self" className="a-link department-link ">
                                     HOLIDAY MARKET
                                     </a>
                                 </div>
@@ -794,7 +794,7 @@ const Header = () =>{
                                     <div className="folder-category ">
                                         <button className="a-button a-button-nostyle folder-link is-open">
                                         <span>
-                                        <span className="title"className>
+                                        <span className="title">
                                         Clothing
                                         </span>
                                         <span className="a-icon-plus-circle"></span>
@@ -803,83 +803,83 @@ const Header = () =>{
                                         </button>
                                         <div role="treeitem" className="category-group is-visible">
                                             <h3 className="a-heading-3">
-                                            <a href="https://www.arket.com/ko-kr/children/all.html" target="_self" className="a-link"className>
+                                            <a href="https://www.arket.com/ko-kr/children/all.html" target="_self" className="a-link">
                                             Clothing
                                             </a>
                                             </h3>
                                             <ul className="subcategories">
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/all.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/all.html" target="_self" className="a-link">
                                                 모두보기
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/knitwears.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/knitwears.html" target="_self" className="a-link">
                                                 니트웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/outerwears.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/outerwears.html" target="_self" className="a-link">
                                                 아우터웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/basics.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/basics.html" target="_self" className="a-link">
                                                 베이직 컬렉션
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/tops.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/tops.html" target="_self" className="a-link">
                                                 탑
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/clothing/jean.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/clothing/jean.html" target="_self" className="a-link">
                                                 진
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/trousers.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/trousers.html" target="_self" className="a-link">
                                                 트라우저
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/accessories.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/accessories.html" target="_self" className="a-link">
                                                 액세서리
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/socks_tights.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/socks_tights.html" target="_self" className="a-link">
                                                 삭스
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/underwear.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/underwear.html" target="_self" className="a-link">
                                                 언더웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/nightwear.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/nightwear.html" target="_self" className="a-link">
                                                 나이트웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/dresses.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/dresses.html" target="_self" className="a-link">
                                                 드레스
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/skirts.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/skirts.html" target="_self" className="a-link">
                                                 스커트
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/shoes.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/shoes.html" target="_self" className="a-link">
                                                 슈즈
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/swimwear.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/swimwear.html" target="_self" className="a-link">
                                                 스윔웨어
                                                 </a>
                                             </li>
@@ -889,7 +889,7 @@ const Header = () =>{
                                     <div className="folder-category ">
                                         <button className="a-button a-button-nostyle folder-link is-open">
                                         <span>
-                                        <span className="title"className>
+                                        <span className="title">
                                         Girls
                                         </span>
                                         <span className="a-icon-plus-circle"></span>
@@ -898,88 +898,88 @@ const Header = () =>{
                                         </button>
                                         <div role="treeitem" className="category-group is-visible">
                                             <h3 className="a-heading-3">
-                                            <a href="https://www.arket.com/ko-kr/children/girls.html" target="_self" className="a-link"className>
+                                            <a href="https://www.arket.com/ko-kr/children/girls.html" target="_self" className="a-link">
                                             Girls
                                             </a>
                                             </h3>
                                             <ul className="subcategories">
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/girls.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/girls.html" target="_self" className="a-link">
                                                 모두보기
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/girls/knitwear.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/girls/knitwear.html" target="_self" className="a-link">
                                                 니트웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/girls/outerwear.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/girls/outerwear.html" target="_self" className="a-link">
                                                 아우터웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/girls/basics.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/girls/basics.html" target="_self" className="a-link">
                                                 베이직
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/girls/tops.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/girls/tops.html" target="_self" className="a-link">
                                                 탑
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/girls/jean.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/girls/jean.html" target="_self" className="a-link">
                                                 진
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/girls/trousers.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/girls/trousers.html" target="_self" className="a-link">
                                                 트라우저
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/girls/accessories.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/girls/accessories.html" target="_self" className="a-link">
                                                 액세서리
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/girls/socks_tights.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/girls/socks_tights.html" target="_self" className="a-link">
                                                 삭스
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/girls/socks_tights/tights.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/girls/socks_tights/tights.html" target="_self" className="a-link">
                                                 레깅스
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/girls/underwear.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/girls/underwear.html" target="_self" className="a-link">
                                                 언더웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/girls/nightwear.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/girls/nightwear.html" target="_self" className="a-link">
                                                 나이트웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/girls/dresses.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/girls/dresses.html" target="_self" className="a-link">
                                                 드레스
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/girls/skirts.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/girls/skirts.html" target="_self" className="a-link">
                                                 스커트
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/girls/shoes.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/girls/shoes.html" target="_self" className="a-link">
                                                 슈즈
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/girls/swimwear.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/girls/swimwear.html" target="_self" className="a-link">
                                                 스윔웨어
                                                 </a>
                                             </li>
@@ -989,7 +989,7 @@ const Header = () =>{
                                     <div className="folder-category ">
                                         <button className="a-button a-button-nostyle folder-link is-open">
                                         <span>
-                                        <span className="title"className>
+                                        <span className="title">
                                         Boys
                                         </span>
                                         <span className="a-icon-plus-circle"></span>
@@ -998,73 +998,73 @@ const Header = () =>{
                                         </button>
                                         <div role="treeitem" className="category-group is-visible">
                                             <h3 className="a-heading-3">
-                                            <a href="https://www.arket.com/ko-kr/children/boys.html" target="_self" className="a-link"className>
+                                            <a href="https://www.arket.com/ko-kr/children/boys.html" target="_self" className="a-link">
                                             Boys
                                             </a>
                                             </h3>
                                             <ul className="subcategories">
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/boys.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/boys.html" target="_self" className="a-link">
                                                 모두보기
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/boys/knitwear.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/boys/knitwear.html" target="_self" className="a-link">
                                                 니트웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/boys/outerwear.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/boys/outerwear.html" target="_self" className="a-link">
                                                 아우터웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/boys/basics.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/boys/basics.html" target="_self" className="a-link">
                                                 베이직
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/boys/tops.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/boys/tops.html" target="_self" className="a-link">
                                                 탑
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/boys/jean.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/boys/jean.html" target="_self" className="a-link">
                                                 진
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/boys/trousers.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/boys/trousers.html" target="_self" className="a-link">
                                                 트라우저
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/boys/accessories.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/boys/accessories.html" target="_self" className="a-link">
                                                 액세서리
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/boys/socks.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/boys/socks.html" target="_self" className="a-link">
                                                 삭스
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/boys/underwear.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/boys/underwear.html" target="_self" className="a-link">
                                                 언더웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/boys/nightwear.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/boys/nightwear.html" target="_self" className="a-link">
                                                 나이트웨어
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/boys/shoes.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/boys/shoes.html" target="_self" className="a-link">
                                                 슈즈
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="https://www.arket.com/ko-kr/children/boys/swimwear.html" target="_self" className="a-link"className>
+                                                <a href="https://www.arket.com/ko-kr/children/boys/swimwear.html" target="_self" className="a-link">
                                                 스윔웨어
                                                 </a>
                                             </li>
@@ -1077,16 +1077,16 @@ const Header = () =>{
                             <div data-title="Basics" role="treeitem" aria-hidden="true" className="category-wrapper">
                                 <div className="category-menu">
                                 <div className="curated-categories">
-                                    <a href="https://www.arket.com/ko-kr/basics.html" target="_self" className="a-link department-link "className>
+                                    <a href="https://www.arket.com/ko-kr/basics.html" target="_self" className="a-link department-link ">
                                     ALL ABC
                                     </a>
-                                    <a href="https://www.arket.com/ko-kr/women/basics.html" target="_self" className="a-link department-link "className>
+                                    <a href="https://www.arket.com/ko-kr/women/basics.html" target="_self" className="a-link department-link ">
                                     WOMEN
                                     </a>
-                                    <a href="https://www.arket.com/ko-kr/men/basics.html" target="_self" className="a-link department-link "className>
+                                    <a href="https://www.arket.com/ko-kr/men/basics.html" target="_self" className="a-link department-link ">
                                     MEN
                                     </a>
-                                    <a href="https://www.arket.com/ko-kr/children/basics.html" target="_self" className="a-link department-link "className>
+                                    <a href="https://www.arket.com/ko-kr/children/basics.html" target="_self" className="a-link department-link ">
                                     CHILDREN
                                     </a>
                                 </div>
@@ -1097,13 +1097,13 @@ const Header = () =>{
                             <div data-title="Travel" role="treeitem" aria-hidden="true" className="category-wrapper">
                                 <div className="category-menu">
                                 <div className="curated-categories">
-                                    <a href="https://www.arket.com/ko-kr/travel.html" target="_self" className="a-link department-link "className>
+                                    <a href="https://www.arket.com/ko-kr/travel.html" target="_self" className="a-link department-link ">
                                     TRAVEL
                                     </a>
-                                    <a href="/ko-kr/travel/the-packing-system.html" target="_self" className="a-link department-link "className>
+                                    <a href="/ko-kr/travel/the-packing-system.html" target="_self" className="a-link department-link ">
                                     The packing system
                                     </a>
-                                    <a href="/ko-kr/travel/all/a-commuters-guide.html" target="_self" className="a-link department-link "className>
+                                    <a href="/ko-kr/travel/all/a-commuters-guide.html" target="_self" className="a-link department-link ">
                                     A commuter's guide
                                     </a>
                                 </div>
@@ -1111,7 +1111,7 @@ const Header = () =>{
                                     <div className="folder-category ">
                                         <button className="a-button a-button-nostyle folder-link is-open">
                                         <span>
-                                        <span className="title"className>
+                                        <span className="title">
                                         Travel 모두보기
                                         </span>
                                         <span className="a-icon-plus-circle"></span>
@@ -1120,23 +1120,23 @@ const Header = () =>{
                                         </button>
                                         <div role="treeitem" className="category-group is-visible">
                                             <h3 className="a-heading-3">
-                                            <a href="/ko-kr/travel/all.html" target="_self" className="a-link"className>
+                                            <a href="/ko-kr/travel/all.html" target="_self" className="a-link">
                                             Travel 모두보기
                                             </a>
                                             </h3>
                                             <ul className="subcategories">
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/travel/luggage.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/travel/luggage.html" target="_self" className="a-link">
                                                 러기지
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/travel/packable-bags.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/travel/packable-bags.html" target="_self" className="a-link">
                                                 패커블
                                                 </a>
                                             </li>
                                             <li className="subcategory ">
-                                                <a href="/ko-kr/travel/travel-accessories.html" target="_self" className="a-link"className>
+                                                <a href="/ko-kr/travel/travel-accessories.html" target="_self" className="a-link">
                                                 액세서리
                                                 </a>
                                             </li>

@@ -9,7 +9,7 @@ const ProductSizePicker = ({id, isSelectable, isClicked})=>{
         {isSelectable ? (
             <button className="selectSize selectable" onClick={()=>{dispatch(toggleSelectBox(id))}}>
                 M
-                <div className={`selBtn ${isClicked?"selected":""}`}></div>    
+                <div className={`selBtn ${isClicked ? "selected" : ""}`}></div>    
             </button>
         ) : (
             <button className="selectSize one">ONESIZE</button>

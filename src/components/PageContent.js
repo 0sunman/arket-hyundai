@@ -36,13 +36,6 @@ const PageContent = () => {
         </div>
         </div>
             <FavList/>
-        <div className="o-width wc-100 title--xx-small">
-        </div>
-        <div>
-        <ul>
-            <li></li>
-        </ul>
-        </div>
 
         <div id="praArea"> </div>
         <div className="splash parbase"></div>
