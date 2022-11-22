@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { toggleSelectBox } from "../../../store/favourite";
+import { toggleSelectBox } from "../../store/favourite";
 
 const ProductSizePicker = ({id, isSelectable, isClicked})=>{
     const dispatch = useDispatch();

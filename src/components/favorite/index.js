@@ -1,10 +1,9 @@
-import {useSelector} from 'react-redux'
+
 import "./favlist.css"; 
-import FavElement from "./favElement";
+import FavElement from "./element";
 
 
-const FavList = () => {
-    const favorites = useSelector(state => state.favorites)
+const FavList = ({favorites}) => {
     return (
         <div>
             <ul className="listGrid">

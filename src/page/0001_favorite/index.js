@@ -1,6 +1,10 @@
-import FavList from "./favList";
+import FavList from "../../components/favorite";
+import {useSelector} from 'react-redux'
 
 const PageContent = () => {
+
+    const favorites = useSelector(state => state.favorites)
+
     return (      
     <div data-component="OPageContent" className="o-page-content" data-component-id="84f821cb-b419-4c7f-b066-9f1c61032e83" style={{"marginTop": "56px"}}>
         <div className="parbase sdp-component left-component">
@@ -35,7 +39,7 @@ const PageContent = () => {
             </div>
         </div>
         </div>
-            <FavList/>
+            <FavList favorites={favorites}/>
 
         <div id="praArea"> </div>
         <div className="splash parbase"></div>

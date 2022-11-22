@@ -1,5 +1,5 @@
-import ProductDescription from "./components/ProductDescription";
-import ProductSizePicker from "./components/ProductSizePicker";
+import ProductDescription from "./ProductDescription";
+import ProductSizePicker from "./ProductSizePicker";
 
 const RemoveButton = () => (
 <button className="removeBtn">
