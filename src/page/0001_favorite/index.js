@@ -39,7 +39,7 @@ const PageContent = () => {
             </div>
         </div>
         </div>
-            <FavList favorites={favorites}/>
+        <FavList favorites={favorites}/>
 
         <div id="praArea"> </div>
         <div className="splash parbase"></div>
