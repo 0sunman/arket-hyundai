@@ -5,8 +5,9 @@ import Header from './components/common/Header';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import rootReducer from './store';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, BrowserRouter, Routes, Route } from 'react-router-dom';
 import RouteList from './Route';
+import HomeButton from "./components/homebutton"
 
 
 
@@ -16,11 +17,12 @@ const store = createStore(rootReducer);
 function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <HashRouter>
         <Head/>
         <Header/>
         <RouteList/>
-      </BrowserRouter>
+        <HomeButton/>
+      </HashRouter>
     </Provider>    
   );
 }
