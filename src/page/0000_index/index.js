@@ -4,7 +4,7 @@ const IndexList = ({list}) => {
     
     return (
     <div style={{marginTop:"76px", marginLeft:"50px"}}>
-        {list.map(({path,name},idx)=>(
+        {list && list.map(({path,name},idx)=>(
             <p>
                 <span>[{(idx+1)}]</span> <Link to={path}>{name}</Link>
             </p>
