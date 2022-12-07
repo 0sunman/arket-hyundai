@@ -1,7 +1,10 @@
 import './qna.css';
 import {useSelector} from 'react-redux'
-import {changeActive} from "../../store/qnalist"
+import {changeActive} from "../../../store/qnalist"
 import { useDispatch } from 'react-redux';
+import { useLocation, Link } from 'react-router-dom';
+import Head from "./../../../components/arket/common/Head";
+import CommonHeader from './../../../components/arket/common/Header';
 
 const Header = () => (<li className="header table-row">
     <ul>
@@ -15,8 +18,13 @@ const Header = () => (<li className="header table-row">
 const QnAPage = () => {
     const qnadata = useSelector(state => state.qna)
     const dispatch = useDispatch()
+    const location = useLocation();
     
     return (      
+        <>
+        
+        <Head/>
+        <CommonHeader/>
     <div data-component="OPageContent" className="o-page-content" data-component-id="84f821cb-b419-4c7f-b066-9f1c61032e83" style={{"marginTop": "56px"}}>
         <div className="o-my-page o-width wc-75" style={{"marginTop": "51px"}}>
 
@@ -44,7 +52,9 @@ const QnAPage = () => {
             </div>
             <div className="arket-qna">
             <h2>1:1 문의</h2>
+            <Link to="./register">
             <button className="qna-button">1:1 문의하기</button>
+            </Link>
             <div className="selectbox-area">
                 <div>
                 <button>전체보기<span className="arrow-down"></span></button>
@@ -93,6 +103,7 @@ const QnAPage = () => {
             </div>
       </div>
     </div>
+    </>
  
  )
 }

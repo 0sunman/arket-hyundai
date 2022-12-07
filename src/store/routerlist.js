@@ -1,13 +1,27 @@
-import IndexList from './../page/0000_index';
-import Favorite from './..//page/0001_favorite';
-import Qna from './../page/0002_qna';
+import IndexList from './../page/arket/0000_index/index';
+import Favorite from './../page/arket/0001_favorite';
+import Qna from './../page/arket/0002_qna';
+import QnaRegister from './../page/arket/0002_qna/register';
+
+import CosIndex from '../page/cos/cos';
+
+
+import StoriesIndex from '../page/stories/stories'
+import StoriesFavorite from './../page/stories/0001_favorite';
 
 const routerlist = {
-    
-    data:[
-        {name:"인덱스 페이지", path:"/", element:<IndexList/>, srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0000_index/index.js"},
-        {name:"2022-11-20 Favorite 페이지", path:"/favorite", element:<Favorite/>, srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0001_favorite/index.js"},
-        {name:"2022-11-23 Q&A 페이지", path:"/qna", element:<Qna/>, srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0002_qna/index.js"},
+    cos:[        
+        {name:"인덱스 페이지", path:"/cos/", element:(<CosIndex/>), srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0000_index/index.js"},
+    ],
+    stories:[
+        {name:"인덱스 페이지", path:"/stories/", element:(<StoriesIndex/>), srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0000_index/index.js"},
+        {name:"2022-11-20 Favorite 페이지", path:"/stories/favorite", element:<StoriesFavorite/>, srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0001_favorite/index.js"},
+    ],
+    arket:[
+        {name:"인덱스 페이지", path:"/arket/", element:(<IndexList/>), srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0000_index/index.js"},
+        {name:"2022-11-20 Favorite 페이지", path:"/arket/favorite", element:<Favorite/>, srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0001_favorite/index.js"},
+        {name:"2022-11-23 Q&A 페이지", path:"/arket/qna", element:<Qna/>, srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0002_qna/index.js"},
+        {name:"2022-11-29 Q&A 등록 페이지", path:"/arket/qna/register", element:<QnaRegister/>, srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0002_qna/register.js"},
     ]
 }
 

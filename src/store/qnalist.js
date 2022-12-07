@@ -21,7 +21,25 @@ const QnAList = {
             answeryn:false,
             active:false
         },
-    ]
+    ],
+    qnaregister:{
+        isPopup:false,
+        selectBox:[
+            {
+                "id":1,
+                "isShow":false,
+                "text":"찾아보기",
+                "list":["없음1","없음2","없음3","없음4"]
+            },{
+                "id":2,
+                "isShow":false,
+                "text":"선택하기",
+                "list":["naver.com","daum.net","gmail.com","직접입력"]
+            }
+        ],
+        emailList:[],
+        textContent:""
+    }
 }
 
 export const getQnalist = ()=>({
@@ -32,6 +50,8 @@ export const changeActive = (id)=>({
     type:"CHANGE_ACTIVE",
     id
 })
+
+export const changeSelectBox = ()=>({})
 
 
 const qnareducer = (state=QnAList, action) => {

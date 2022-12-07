@@ -34,6 +34,28 @@ const favorites = {
             },
             isSelectable:true, 
             isClicked:true
+        },
+        {
+            "id":4,
+            "image":{url:"https://lp.arket.com/app006prod?set=key[resolve.width],value[251]&set=key[resolve.height],value[10000]&set=key[resolve.allowImageUpscaling],value[0]&set=key[resolve.format],value[jpeg]&set=source[/c6/58/c6584d2e825f51b656bd7a289ac7d09b11815eb6.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/fullscreen]&call=url[file:/product/dynamic.chain]"},
+            "description":{
+                "name":"울 집 카라3",
+                "price":79000
+    
+            },
+            isSelectable:true, 
+            isClicked:true
+        },
+        {
+            "id":5,
+            "image":{url:"https://lp.arket.com/app006prod?set=key[resolve.width],value[251]&set=key[resolve.height],value[10000]&set=key[resolve.allowImageUpscaling],value[0]&set=key[resolve.format],value[jpeg]&set=source[/c6/58/c6584d2e825f51b656bd7a289ac7d09b11815eb6.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/fullscreen]&call=url[file:/product/dynamic.chain]"},
+            "description":{
+                "name":"울 집 카라3",
+                "price":79000
+    
+            },
+            isSelectable:true, 
+            isClicked:true
         }
     ]
 }
