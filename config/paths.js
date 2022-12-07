@@ -21,7 +21,7 @@ const publicUrlOrPath = getPublicUrlOrPath(
   process.env.PUBLIC_URL
 );
 
-const buildPath = process.env.BUILD_PATH || 'docs';
+const buildPath = process.env.BUILD_PATH || 'docs'; // 빌드 위치 변경
 
 const moduleFileExtensions = [
   'web.mjs',
