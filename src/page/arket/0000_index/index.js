@@ -1,20 +1,33 @@
+import { useEffect } from 'react';
 import {Link} from 'react-router-dom';
+import HomeButton from '../../../components/common/homebutton';
+import { IndexHeader, IndexBody } from '../../../components/common/IndexHeader';
 import Head from "./../../../components/arket/common/Head";
 import Header from './../../../components/arket/common/Header';
+import useLoading from './../../../hooks/loading';
+
 
 const IndexList = ({list}) => {
+
+    const [isLoading, setLoad, ListTitle, List] = useLoading();
+    useEffect(()=>{
+        setTimeout(()=>{
+            setLoad(false)
+        },1000);
+    },[])
+
     return (
         <>
-        
-        <Head/>
-        <Header/>
-        <div style={{marginTop:"76px", marginLeft:"50px"}}>
+        <IndexHeader/>
+        <List>
+            <ListTitle>[ ARKET Page List ]</ListTitle>
             {list && list.map(({path,name},idx)=>(
-                <p>
+                <p style={{margin:"10px"}}>
                     <span>[{(idx+1)}]</span> <Link to={path}>{name}</Link>
                 </p>
             ))}
-        </div>
+        </List>
+        <HomeButton></HomeButton>
 
         </>
 )}

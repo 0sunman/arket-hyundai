@@ -7,14 +7,17 @@ import { HashRouter, BrowserRouter, Routes } from 'react-router-dom';
 import RouteList from './Route';
 
 
-
 const store = createStore(rootReducer);
+
+
+
 
 function App() {
   return (
     <Provider store={store}>
       <HashRouter>
         <RouteList/>
+        
       </HashRouter>
     </Provider>    
   );

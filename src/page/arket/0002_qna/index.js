@@ -5,6 +5,7 @@ import { useDispatch } from 'react-redux';
 import { useLocation, Link } from 'react-router-dom';
 import Head from "./../../../components/arket/common/Head";
 import CommonHeader from './../../../components/arket/common/Header';
+import HomeButton from '../../../components/common/homebutton';
 
 const Header = () => (<li className="header table-row">
     <ul>
@@ -103,6 +104,7 @@ const QnAPage = () => {
             </div>
       </div>
     </div>
+    <HomeButton/>
     </>
  
  )

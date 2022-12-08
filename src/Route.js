@@ -5,14 +5,24 @@ import StoriesIndex from './page/stories/stories'
 import { Routes, Route } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { data } from 'browserslist';
+import useLoading from './hooks/loading';
+import styled from '@emotion/styled';
+
+const LoadingBar = styled.div`
+    position:fixed; top:0; left:0; width:100%; height:100%; background:#000;
+    display:flex; justify-content:center; align-items:center; z-index:100;
+    & > span{ color:#fff; font-size:36px}
+`
+
 
 const RouteList = () => { 
+    const [isLoading,setLoad] = useLoading();
     const RouteListData = useSelector(state => {
         return state.routerlist;
     });
     const datas = ["cos","stories","arket"];
     return (
-
+<>
         <Routes>
             {
                 datas.reduce((list, brand)=>{
@@ -35,6 +45,13 @@ const RouteList = () => {
                 },[<Route path="/" element={<RealIndex/>}></Route>])
             }
         </Routes>
+
+
+        <LoadingBar style={{"display":(isLoading) ? "flex":"none"}}>
+                <span>로딩중</span>
+            </LoadingBar>
+</>
+        
 )}
 
  export default RouteList;

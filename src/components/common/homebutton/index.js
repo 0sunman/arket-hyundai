@@ -8,13 +8,8 @@ const HomeButton = () => {
     const location = useLocation();
     const routerlist = useSelector(state => state.routerlist)
     const [sourceURL,setSourceURL] = useState("");
-    useEffect(()=>{
-        setSourceURL(routerlist.data.filter((ele)=>ele.path === location.pathname)[0].srcURL)
-//        setSourceURL()
-    },[location])
     return (<div className="HomeButton">
         <Link to="/">목록으로 돌아가기</Link><br/>
-        <a href={sourceURL} target="_blank">Source (React)</a><br/>
     </div>)
 }
 

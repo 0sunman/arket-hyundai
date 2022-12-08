@@ -1,6 +1,7 @@
 import FavList from "../../../components/common/favorite";
 import {useSelector} from 'react-redux'
 import Head from "./../../../components/stories/common/Head";
+import HomeButton from "../../../components/common/homebutton";
 
 const PageContent = () => {
 
@@ -20,6 +21,7 @@ const PageContent = () => {
                 </div>
             </div>
         </div>
+        <HomeButton/>
         </>
  
  )

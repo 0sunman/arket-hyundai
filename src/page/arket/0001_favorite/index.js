@@ -2,6 +2,7 @@ import FavList from "../../../components/common/favorite";
 import {useSelector} from 'react-redux'
 import Head from "./../../../components/arket/common/Head";
 import Header from './../../../components/arket/common/Header';
+import HomeButton from "../../../components/common/homebutton";
 
 const PageContent = () => {
 
@@ -51,6 +52,7 @@ const PageContent = () => {
         <div id="praArea"> </div>
         <div className="splash parbase"></div>
     </div>
+    <HomeButton/>
         </>
  
  )
