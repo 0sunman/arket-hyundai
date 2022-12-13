@@ -3,6 +3,11 @@ import styled from "@emotion/styled";
 import useLoading from "../hooks/loading";
 import { IndexHeader, IndexBody } from "../components/common/IndexHeader";
 
+const IndexBodyList = styled.ul`
+    @media(max-width:787px){
+        li > a{font-size:16px !important}
+    }
+`
 
 const Home = () => {
     const [isLoading,setLoad] = useLoading();
@@ -13,7 +18,7 @@ const Home = () => {
         <div className="indexlist">
             <IndexHeader></IndexHeader>
             <IndexBody>
-                <ul>
+                <IndexBodyList>
                     <li>
                         <Link to="./cos" onClick={onSetLoading}>COS</Link>
                     </li>
@@ -29,7 +34,7 @@ const Home = () => {
                     <li>
                         <Link to=".">NANUS</Link>
                     </li>
-                </ul>
+                </IndexBodyList>
             </IndexBody>
         </div>
     )

@@ -5,6 +5,7 @@ import Qna from './../page/arket/0002_qna';
 import QnaRegister from './../page/arket/0002_qna/register';
 
 import CosIndex from '../page/cos/cos';
+import CosSEO from '../page/cos/0002_seo';
 
 
 import StoriesIndex from '../page/stories/stories'
@@ -13,6 +14,7 @@ import StoriesFavorite from './../page/stories/0001_favorite';
 const routerlist = {
     cos:[        
         {name:"인덱스 페이지", path:"/cos/", element:(<CosIndex/>), srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0000_index/index.js"},
+        {name:"2022-12-13 COS SEO 컴포넌트", path:"/cos/cos-seo", element:(<CosSEO/>), srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0000_index/index.js"},
     ],
     stories:[
         {name:"인덱스 페이지", path:"/stories/", element:(<StoriesIndex/>), srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0000_index/index.js"},

@@ -4,7 +4,7 @@ const ProductDescription = ({id, description, brand})=>(
         <h2>{description.name}</h2>
         <p className="priceValue">{description.price} 원</p>
         {
-            brand === "arket" && (
+            brand === "arket_ban" && (
             <dl>
                 <dt className="color">COLOUR</dt>
                 <dt>Off White</dt>
