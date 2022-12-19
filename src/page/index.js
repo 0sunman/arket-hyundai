@@ -10,6 +10,13 @@ const IndexBodyList = styled.ul`
 `
 
 const Home = () => {
+    /*
+                    <li>
+                        <Link to=".">TOTEME</Link>
+                    </li>
+                    <li>
+                        <Link to=".">NANUS</Link>
+                    </li>*/
     const [isLoading,setLoad] = useLoading();
     const onSetLoading = () =>{
         setLoad(true);
@@ -28,12 +35,7 @@ const Home = () => {
                     <li>
                         <Link to="./arket" onClick={onSetLoading}>ARKET</Link>
                     </li>
-                    <li>
-                        <Link to=".">TOTEME</Link>
-                    </li>
-                    <li>
-                        <Link to=".">NANUS</Link>
-                    </li>
+
                 </IndexBodyList>
             </IndexBody>
         </div>
