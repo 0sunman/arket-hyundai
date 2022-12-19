@@ -10,6 +10,7 @@ import CosSEO from '../page/cos/0002_seo';
 
 import StoriesIndex from '../page/stories/stories'
 import StoriesFavorite from './../page/stories/0001_favorite';
+import StoriesSizeguide from './../page/stories/0002_sizeguide';
 
 const routerlist = {
     cos:[        
@@ -19,6 +20,7 @@ const routerlist = {
     stories:[
         {name:"인덱스 페이지", path:"/stories/", element:(<StoriesIndex/>), srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0000_index/index.js"},
         {name:"2022-11-20 Favorite 페이지", path:"/stories/favorite", element:<StoriesFavorite/>, srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0001_favorite/index.js"},
+        {name:"2022-12-16 사이즈가이드 페이지", path:"/stories/sizeguide", element:<StoriesSizeguide/>, srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0001_favorite/index.js"},
     ],
     arket:[
         {name:"인덱스 페이지", path:"/arket/", element:(<IndexList/>), srcURL:"https://github.com/0sunman/arket-hyundai/blob/main/src/page/0000_index/index.js"},
