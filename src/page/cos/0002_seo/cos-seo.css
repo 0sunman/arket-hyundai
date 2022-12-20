@@ -1,20 +1,28 @@
-.cos-seo{
+.cos-seo-content{
     cursor:default; border: 0;height: 36px; overflow: hidden;position: relative;
         text-align: left; word-break: break-all; 
 }
 @media (max-width:787px) {
     .content-section{margin-top:100px;}
-    .cos-seo{height: 18px; margin:10px}
+    .cos-seo-content{height: 18px; margin:10px}
 }
 
-label.cos-seo{font-size: 13px !important; line-height: 18px !important;}
+label.cos-seo-content{font-size: 13px !important; line-height: 18px !important;}
 
-.cos-seo a.underline{font-size: 13px; display: inline; line-height: 18px !important; border: 0 !important; text-decoration: underline !important; word-break: break-all;}
-.cos-seo a.underline::after{display: none;}
-.cos-seo button{
+.cos-seo-content a.underline{font-size: 13px; display: inline; line-height: 18px !important; border: 0 !important; text-decoration: underline !important; word-break: break-all;}
+.cos-seo-content a.underline::after{display: none;}
+.cos-seo-content button{
     border: 0; padding: 0; position: absolute; bottom: 0; white-space: nowrap; right: 0; text-decoration: underline;
 }
-.cos-seo button::before{ content: ""; background: linear-gradient(-90deg, #fff, transparent); width: 100px; height: 18px; left: -100px; display: inline-block; position: absolute;}
-.cos-seo.visible button::before{display:none}
-.cos-seo.visible button{position: relative; padding-left: 5px;}
-.cos-seo.visible{height:auto}
+/*.cos-seo-content button::before{ content: ""; background: linear-gradient(-90deg, #fff, transparent); width: 100px; height: 18px; left: -100px; display: inline-block; position: absolute;}*/
+.cos-seo-content.visible button::before{display:none}
+.cos-seo-content.visible button{position: relative; padding-left: 5px;}
+.cos-seo-content.visible{height:auto}
+
+@media (min-width:1024px) {
+    .cos-seo{max-width:50% !important}
+}
+@media (max-width:1024px) {
+    .cos-seo.m-teaser{max-width:100% !important}
+}
+.cos-seo-wrapper{width: 100% !important;}
