@@ -20,7 +20,7 @@ label.cos-seo-content{font-size: 13px !important; line-height: 18px !important;}
 .cos-seo-content.visible{height:auto}
 
 @media (min-width:1024px) {
-    .cos-seo{max-width:1600px !important}
+    .cos-seo{max-width:1600px !important }
     .cos-seo-content{width:50% !important; margin: 0 auto;}
 }
 @media (max-width:1024px) {
