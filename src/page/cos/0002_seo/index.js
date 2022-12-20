@@ -28,10 +28,11 @@ const CosSEO = () =>{
 
     }
    useEffect(()=>{
-    resizeEvent();
+    
         window.addEventListener("resize",resizeEvent)
        setTimeout(()=>{
            setLoad(false)
+           resizeEvent();
        },1000);
        return () => {
         window.removeEventListener("resize",resizeEvent);
