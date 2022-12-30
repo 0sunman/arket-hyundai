@@ -52,7 +52,7 @@ const CosSEO = () =>{
                                 <label ref={cosSeo} className={`a-label js-a-label q-alpha3 cos-seo-content ${readMore ? "visible" : ""}`}>디자인 포인트가 더해진 <a class="underline" href="https://www.cos.com/ko-kr/men/knitwear.html">니트웨어</a>, 
                                 스타일과 기능성이 어우러진 <a class="underline" href="https://www.cos.com/ko-kr/men/coats-jackets.html">아우터웨어</a>등 다양한 남성 인기 아이템으로 겨울 시즌을 준비해보세요. 
                                 등 다양한 남성 인기 아이템으로 겨울 시즌을 준비해보세요. 등 다양한 남성 인기 아이템으로 겨울 시즌을 준비해보세요. 
-                                <button ref={cosSeoButton} onClick={clickReadMore}>...{readMore ? "닫기":"더 보기"}</button>
+                                <button ref={cosSeoButton} onClick={clickReadMore}>...<span style={{textDecoration:"underline"}}>{readMore ? "닫기":"더 보기"}</span></button>
                                 </label>
                             </div>
                         </div>
