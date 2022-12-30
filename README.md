@@ -1,5 +1,5 @@
 # H&M UI 개발을 위한 코드 정리 페이지 (더현대닷컴)
-- 기술 : React, Redux
+- 기술 : React, Redux, Webpack
 - 운영 사이트 : 
 - UI 개발 리스트 : http://image.thehyundai.com/cos/frontend
 - 운영사이트 1 : https://www.cos.com/kr_krw
