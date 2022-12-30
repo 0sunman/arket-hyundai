@@ -1,12 +1,10 @@
 import FavList from "../../../components/common/favorite";
-import {useSelector} from 'react-redux'
 import Head from "./../../../components/arket/common/Head";
 import Header from './../../../components/arket/common/Header';
 import HomeButton from "../../../components/common/homebutton";
+import favoriteStyle from "./favorite.arket.module.scss"
 
 const PageContent = () => {
-
-    const favorites = useSelector(state => state.favorites)
 
     return (      
         <>
@@ -51,7 +49,7 @@ const PageContent = () => {
             </div>
         </div>
         </div>
-        <FavList favorites={favorites} brand="arket"/>
+        <FavList brand="arket" wholeStyle={favoriteStyle.favorite}/>
 
         <div id="praArea"> </div>
         <div className="splash parbase"></div>
