@@ -12,7 +12,10 @@ label.cos-seo-content{font-size: 13px !important; line-height: 18px !important;}
 .cos-seo-content a.underline{font-size: 13px; display: inline; line-height: 18px !important; border: 0 !important; text-decoration: underline !important; word-break: break-all;}
 .cos-seo-content a.underline::after{display: none;}
 .cos-seo-content button{
-    border: 0; padding: 0; position: absolute; bottom: 0; white-space: nowrap; right: 0; text-decoration: underline;
+    border: 0; padding: 0; position: absolute; bottom: 0; white-space: nowrap; right: 0; 
+}
+.cos-seo-content span:nth-child(2){
+    text-decoration: underline;
 }
 /*.cos-seo-content button::before{ content: ""; background: linear-gradient(-90deg, #fff, transparent); width: 100px; height: 18px; left: -100px; display: inline-block; position: absolute;}*/
 .cos-seo-content.visible button::before{display:none}
