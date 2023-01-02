@@ -15,20 +15,18 @@ const FavList = ({brand,wholeStyle}) => {
     
 
     const favorites = useSelector(state => state.favorites);
-    const [favoriteDatas,setFavoriteDatas] = useState(favorites.datas);
+    const [favoriteDatas,setFavoriteDatas] = useState([]);
     const [SwitchOnOff,setSwitchOnOff] = useState(false);
 
-    const Datas = useMemo(()=>{
-        setFavoriteDatas(favorites.datas)
-        return favoriteDatas;
-    },[favoriteDatas])
-
-
     useEffect(()=>{
-        if(Datas.length > 3){
+        if(favoriteDatas.length > 3){
             setSwitchOnOff(true);
         }
-    },[Datas])
+    },[favoriteDatas])
+
+    useEffect(()=>{
+        setFavoriteDatas(favorites.datas)
+    },[favorites])
 
 
     useEffect(()=>{
@@ -39,14 +37,14 @@ const FavList = ({brand,wholeStyle}) => {
         }
     },[])
     return (
-        <div className={wholeStyle}>
-            {brand === "stories" && (<div style={{"fontSize":"14px","textAlign":"right"}}>
-                <span>{Datas.length}</span> Items
+        <div className={wholeStyle + `${brand === 'stories' && " u-align-to-logo"}`}>
+            {brand === "stories" && favoriteDatas.length > 0 && (<div className="" style={{"display":"block","fontSize":"14px","textAlign":"right"}}>
+                <span>{favoriteDatas.length}</span> Items
             </div>)}
             {
-            Datas && <ul className={FavClass}>
+            favoriteDatas && <ul className={FavClass}>
                 {
-                    Datas && Datas.map((favorite,idx) => {
+                    favoriteDatas && favoriteDatas.map((favorite,idx) => {
                         return <FavElement {...favorite} brand={brand} key={idx}/>
                     })
                 }
@@ -54,14 +52,14 @@ const FavList = ({brand,wholeStyle}) => {
             }
             
             {
-                Datas.length === 0 && (<div className={FavClass}>
+                favoriteDatas.length === 0 && (<div className={FavClass}>
+                    
                     <h2>좋아하는 상품을 저장해보세요.</h2>
                     <p>
                         좋아하는 상품을 저장하고 싶으신가요?<br/>
                         상품에 있는 하트 모양을 클릭하시면 여기에 보여집니다.
                     </p>
                     <button onClick={()=>{
-                        
                         dispatch(addDefaultList({count:4}));
                     }}>
                         지금 둘러보세요
@@ -69,7 +67,7 @@ const FavList = ({brand,wholeStyle}) => {
                 </div>)
             }
             
-    <Popup cls={favoritePopupStyle.popup} SwitchOnOff={SwitchOnOff} setSwitchOnOff={setSwitchOnOff}/>
+    <Popup cls={favoritePopupStyle.popup} brand={brand} SwitchOnOff={SwitchOnOff} setSwitchOnOff={setSwitchOnOff}/>
         </div>)
 }
 
