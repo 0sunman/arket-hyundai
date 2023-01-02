@@ -16,7 +16,7 @@ const Popup = ({brand,cls,SwitchOnOff,setSwitchOnOff}) => {
     useEffect(()=>{
         setSwitchOnOff(SwitchOnOff)
     },[setSwitchOnOff])
-    return SwitchOnOff ? <div className={popupStyle.popupWrapper +" "+ clsName + " " + (brand === "stories" ? popupStyleStories.popup:"")}>
+    return SwitchOnOff ? <div className={popupStyle.popupWrapper +" "+ clsName}>
         <div>
             <div onClick={onClose}>
                 <span></span>
