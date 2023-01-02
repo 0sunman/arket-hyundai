@@ -5,7 +5,8 @@ import { useParams } from 'react-router-dom';
 import { useEffect,useState,useMemo } from "react";
 import { useDispatch,useSelector } from "react-redux";
 import { clearFavoriteList,addDefaultList } from "../../../store/favourite";
-import favoritePopupStyle from "../popup/popup.arket.module.scss";
+import favoriteArketPopupStyle from "../popup/popup.arket.module.scss";
+import favoriteStoriesPopupStyle from '../popup/popup.stories.module.scss'
 import Popup from "../popup"
 
 const FavList = ({brand,wholeStyle}) => {
@@ -36,8 +37,13 @@ const FavList = ({brand,wholeStyle}) => {
             dispatch(addDefaultList({count}));
         }
     },[])
+    const popupStyle = {
+        "stories":favoriteStoriesPopupStyle.popup,
+        "arket":favoriteArketPopupStyle.popup
+    }
+    console.log(wholeStyle)
     return (
-        <div className={wholeStyle + `${brand === 'stories' && " u-align-to-logo"}`}>
+        <div className={wholeStyle + " " + `${brand === 'stories' && " u-align-to-logo"}`}>
             {brand === "stories" && favoriteDatas.length > 0 && (<div className="" style={{"display":"block","fontSize":"14px","textAlign":"right"}}>
                 <span>{favoriteDatas.length}</span> Items
             </div>)}
@@ -67,7 +73,7 @@ const FavList = ({brand,wholeStyle}) => {
                 </div>)
             }
             
-    <Popup cls={favoritePopupStyle.popup} brand={brand} SwitchOnOff={SwitchOnOff} setSwitchOnOff={setSwitchOnOff}/>
+    <Popup cls={popupStyle[brand]} brand={brand} SwitchOnOff={SwitchOnOff} setSwitchOnOff={setSwitchOnOff}/>
         </div>)
 }
 

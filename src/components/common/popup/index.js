@@ -1,5 +1,4 @@
 import popupStyle from './popup.module.scss'
-import popupStyleStories from './popup.stories.module.scss'
 import react,{useEffect, useState} from "react";
 
 const Popup = ({brand,cls,SwitchOnOff,setSwitchOnOff}) => {
