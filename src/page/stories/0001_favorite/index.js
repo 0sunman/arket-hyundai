@@ -2,6 +2,7 @@ import FavList from "../../../components/common/favorite";
 import {useSelector} from 'react-redux'
 import Head from "./../../../components/stories/common/Head";
 import HomeButton from "../../../components/common/homebutton";
+import favoriteStyle from "./favorite.stories.module.scss"
 
 const PageContent = () => {
 
@@ -17,7 +18,7 @@ const PageContent = () => {
                     <div class="title u-align-to-logo"><a href="https://www.stories.com/kr_krw/shoes/all.html" target="_self" class="a-link">Favorite</a></div>
                 </div>
                 <div style={{"clear":"both"}}>
-                    <FavList favorites={favorites} brand="stories"/>
+                    <FavList brand="stories" wholeStyle={favoriteStyle.favorite}/>
                 </div>
             </div>
         </div>

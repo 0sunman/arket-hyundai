@@ -51,6 +51,7 @@ const FavoriteReducer = (state = favorites,action) =>{
         case CLEAR_FAVORITES:
             return {...state,"datas":[]}
         case ADD_DEFAULT_FAVORITES:
+            
             return {...state,"datas":[...(defaultData(action.count))]}
         case REMOVE_FAVORITE:
             console.log(action)

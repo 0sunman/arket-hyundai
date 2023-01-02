@@ -1,7 +1,8 @@
-import popupStyle from './popup.module.scss';
+import popupStyle from './popup.module.scss'
+import popupStyleStories from './popup.stories.module.scss'
 import react,{useEffect, useState} from "react";
 
-const Popup = ({cls,SwitchOnOff,setSwitchOnOff}) => {
+const Popup = ({brand,cls,SwitchOnOff,setSwitchOnOff}) => {
     const [clsName, setClsName]=useState("");
     const onClose = () => {
         setSwitchOnOff(false)
@@ -16,7 +17,7 @@ const Popup = ({cls,SwitchOnOff,setSwitchOnOff}) => {
     useEffect(()=>{
         setSwitchOnOff(SwitchOnOff)
     },[setSwitchOnOff])
-    return SwitchOnOff ? <div className={popupStyle.popupWrapper +" "+ clsName}>
+    return SwitchOnOff ? <div className={popupStyle.popupWrapper +" "+ clsName + " " + (brand === "stories" ? popupStyleStories.popup:"")}>
         <div>
             <div onClick={onClose}>
                 <span></span>
