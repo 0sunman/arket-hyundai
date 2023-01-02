@@ -33,7 +33,7 @@ const CosSEO = () =>{
        setTimeout(()=>{
            setLoad(false)
            resizeEvent();
-       },1000);
+       },100);
        return () => {
         window.removeEventListener("resize",resizeEvent);
        }
