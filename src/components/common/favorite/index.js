@@ -41,7 +41,7 @@ const FavList = ({brand,wholeStyle}) => {
         "stories":favoriteStoriesPopupStyle.popup,
         "arket":favoriteArketPopupStyle.popup
     }
-    console.log(wholeStyle)
+    console.log(popupStyle["stories"]);
     return (
         <div className={wholeStyle + " " + `${brand === 'stories' && " u-align-to-logo"}`}>
             {brand === "stories" && favoriteDatas.length > 0 && (<div className="" style={{"display":"block","fontSize":"14px","textAlign":"right"}}>
