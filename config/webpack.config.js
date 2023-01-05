@@ -121,7 +121,15 @@ module.exports = function (webpackEnv) {
       },
       {
         loader: require.resolve('css-loader'),
-        options: cssOptions,
+        options: {...cssOptions,
+          modules: { // className 변경
+            mode: "local",
+            auto: true,
+            exportGlobals: true,
+            localIdentName: "[path]__[name]__[local]--HyundaiDept",
+            localIdentHashSalt: "my-custom-hash",
+          }
+        },
       },
       {
         // Options for PostCSS as we reference these options twice
