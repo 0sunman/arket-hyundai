@@ -51,26 +51,32 @@ const CosSEO = () => {
           style={{ "margin-top": "0px" }}
         >
           <div className="content-section">
-            <div class="u-cols-sm-8-8 u-cols-md-12-12 u-cols-lg-24-24 u-cols-hero m-padding-30">
+            <div class="cos-seo cos-seo-title u-cols-sm-8-8 u-cols-md-12-12 u-cols-lg-24-24 u-cols-hero">
               <div class="o-hero cos-seo-wrapper">
                 <div class="cos-seo m-teaser mobile-align-top mobile-align-left tablet-align-top tablet-align-center desktop-align-top desktop-align-center text-align-center">
                   <h1 class="a-heading-1 q-giga" style={{ cursor: "default" }}>
-                    트렌딩 나우{" "}
+                    트렌딩 나우
                   </h1>
+                </div>
+              </div>
+            </div>
+            <div class="cos-seo cos-seo-texts u-cols-sm-8-8 u-cols-md-12-12 u-cols-lg-24-24 u-cols-hero">
+              <div class="o-hero cos-seo-wrapper">
+                <div class="cos-seo m-teaser mobile-align-top mobile-align-left tablet-align-top tablet-align-center desktop-align-top desktop-align-center text-align-center">
                   <label
                     ref={cosSeo}
                     className={`a-label js-a-label q-alpha3 cos-seo-content ${
                       readMore ? "visible" : ""
                     }`}
                   >
-                    디자인 포인트가 더해진{" "}
+                    디자인 포인트가 더해진
                     <a
                       class="underline"
                       href="https://www.cos.com/ko-kr/men/knitwear.html"
                     >
                       니트웨어
                     </a>
-                    , 스타일과 기능성이 어우러진{" "}
+                    , 스타일과 기능성이 어우러진
                     <a
                       class="underline"
                       href="https://www.cos.com/ko-kr/men/coats-jackets.html"
@@ -90,9 +96,57 @@ const CosSEO = () => {
                 </div>
               </div>
             </div>
+            <div class="cos-seo cos-seo-chips u-cols-sm-12-12 u-cols-md-12-12 u-cols-lg-24-24 navigation-container u-no-padding o-local-navigation">
+              <div class="navigation">
+                <ul>
+                  <li>
+                    <a
+                      href="/ko-kr/women/hats-scarves-gloves.html"
+                      target="_self"
+                      class="a-link is-selected"
+                      data-title="스카프, 모자 &amp; 장갑"
+                    >
+                      모두보기
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="/ko-kr/women/hats-scarves-gloves/scarves.html"
+                      target="_self"
+                      class="a-link "
+                      data-title="스카프"
+                    >
+                      스카프
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="/ko-kr/women/hats-scarves-gloves/hats.html"
+                      target="_self"
+                      class="a-link "
+                      data-title="모자"
+                    >
+                      모자
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="/ko-kr/women/hats-scarves-gloves/gloves.html"
+                      target="_self"
+                      class="a-link "
+                      data-title="장갑"
+                    >
+                      장갑
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-        <span>TEST</span>
       </div>
       <HomeButton />
     </>
