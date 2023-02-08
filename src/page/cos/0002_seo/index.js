@@ -25,6 +25,7 @@ const CosSEO = () => {
       cosSeoButton.current.style.display = "inline-block";
     }
   };
+
   useEffect(() => {
     window.addEventListener("resize", resizeEvent);
     setTimeout(() => {
