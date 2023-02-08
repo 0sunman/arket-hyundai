@@ -56,9 +56,9 @@ label.cos-seo-content {
 }
 
 @media (min-width: 1024px) {
-  .cos-seo {
+  /* .cos-seo {
     max-width: 1600px !important;
-  }
+  } */
   .cos-seo-content {
     width: 50% !important;
     margin: 0 auto;

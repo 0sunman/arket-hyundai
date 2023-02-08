@@ -1,0 +1,25 @@
+.favoriteHeart {
+  div[class*="SettingPos"] {
+    right: 54px !important;
+  }
+  span[class*="HeartIcon"]:before {
+    content: "";
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='UTF-8'?%3e%3csvg width='24px' height='24px' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' style='background: %23FFFFFF;'%3e%3ctitle%3eA426D9AD-6187-4C17-A573-18DC6D8ABAA3%401x%3c/title%3e%3cg id='Symbols' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3e%3cg id='icon/heart-inactive' fill='%23FFFFFF'%3e%3crect x='0' y='0' width='24' height='24'%3e%3c/rect%3e%3cpath d='M15.9999999,3.5 C17.5082262,3.5 18.8902142,4.09781635 19.8925409,5.06703095 C20.8809189,6.02275751 21.4999999,7.34076808 21.4999999,8.80178833 C21.4999999,10.1957688 20.9651378,11.5019681 20.0055974,12.4780984 L20.0055974,12.4780984 L11.9999941,20.3009243 L4.00420495,12.487947 C3.05171873,11.5040009 2.49999992,10.1825377 2.49999992,8.80178833 C2.49999992,7.34076644 3.11907886,6.02275438 4.10745711,5.06702749 C5.10978195,4.09781472 6.49176869,3.5 7.99999992,3.5 C9.38587598,3.5 10.6636144,3.95679264 11.662847,4.86922606 C13.3363854,3.95679264 14.614124,3.5 15.9999999,3.5 Z' id='Path' stroke='%23000000'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: 24px;
+    background-position: center;
+  }
+
+  @media (max-width: 1024px) {
+    position: relative !important;
+    div[class*="fixBug_headerAInline"] {
+      display: inline !important;
+    }
+    div[class*="SettingPos"] {
+      right: 27px !important;
+    }
+  }
+}
