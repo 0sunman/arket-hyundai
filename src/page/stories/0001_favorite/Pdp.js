@@ -1,4 +1,6 @@
 import Head from "./../../../components/stories/common/Head";
+import HeartIcon from "../../../components/stories/products/HeartIcon";
+
 const Pdp = () => (
   <>
     <Head />
@@ -117,6 +119,7 @@ const Pdp = () => (
               <span className="swiper-pagination-bullet"></span>
               <span className="swiper-pagination-bullet"></span>
             </div>
+            <HeartIcon />
           </div>
         </div>
       </div>

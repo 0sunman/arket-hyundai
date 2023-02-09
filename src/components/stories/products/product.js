@@ -1,3 +1,5 @@
+import HeartIcon from "./HeartIcon";
+
 const Product = () => (
   <div className="o-product" data-index="0">
     <a
@@ -17,6 +19,7 @@ const Product = () => (
             src="https://image.thehyundai.com/static/4/6/2/64/A1/hnm40A1642644_1_568.jpg"
             alt="&amp;OS image 0 of 그린 in 스캘럽 넥 니트 탑"
           />
+          <HeartIcon yPos={10} />
         </div>
       </div>
       <div className="description">
