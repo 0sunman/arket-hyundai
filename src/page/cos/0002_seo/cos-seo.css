@@ -8,9 +8,9 @@
   word-break: break-all;
 }
 @media (max-width: 787px) {
-  .content-section {
+  /* .content-section {
     margin-top: 100px;
-  }
+  } */
   .cos-seo-content {
     height: 18px;
     margin: 10px;

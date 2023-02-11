@@ -644,6 +644,8 @@ module.exports = function (webpackEnv) {
           // Options similar to the same options in webpackOptions.output
           // both options are optional
           linkType: false,
+          // filename: "static/css/[name].[contenthash:8].css",
+          // chunkFilename: "static/css/[name].[contenthash:8].chunk.css",
           filename: "static/css/[name].[contenthash:8].css",
           chunkFilename: "static/css/[name].[contenthash:8].chunk.css",
         }),
