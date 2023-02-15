@@ -1,0 +1,113 @@
+.arketQna {
+  margin-top: 300px !important;
+  button[class*="qna-button"] {
+    width: 300px;
+    margin: 20px 0px;
+    padding: 12px;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+  }
+  [class*="header"] > ul {
+    width: 100%;
+    display: flex;
+    border-top: 3px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 25px 0px;
+    justify-content: center;
+    font-size: 16px;
+  }
+  [class*="content"] > ul {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgb(17, 14, 14);
+    padding: 25px 0px;
+    justify-content: center;
+    font-size: 16px;
+  }
+
+  [class*="table-row"] > ul {
+    li {
+      text-align: center;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+    li:nth-child(1) {
+      width: 25%;
+    }
+    li:nth-child(2) {
+      width: 25%;
+    }
+    li:nth-child(3) {
+      width: 40%;
+      text-align: left;
+      display: block;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    li:nth-child(4) {
+      width: 10%;
+    }
+  }
+  [class*="subject"] {
+    cursor: pointer;
+  }
+  [class*="selectbox-area"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-bottom: 10px;
+
+    & > div {
+      display: inline-block;
+    }
+    button {
+      background-color: transparent;
+      border: transparent;
+    }
+    [class*="arrow-down"] {
+      display: inline-block;
+      margin-left: 20px;
+      width: 10px;
+      height: 10px;
+      border-left: 1px solid #000;
+      border-bottom: 1px solid #000;
+      transform: rotate(-45deg) translateY(-5px);
+    }
+    & > div:first-child {
+      margin-right: 20px;
+    }
+  }
+  [class*="content"][class*="detail"] {
+    flex-wrap: wrap !important;
+    & > li[class*="question"] {
+      display: flex;
+      width: 100%;
+      padding-bottom: 25px;
+      border-bottom: 1px solid #000;
+      flex-direction: column;
+    }
+    & > li[class*="question"] p {
+      width: 100%;
+      text-align: left;
+      padding-left: 6%;
+    }
+    & > li[class*="answer"] {
+      display: flex;
+      width: 100%;
+      padding-top: 25px;
+    }
+    & > li[class*="answer"] p {
+      width: 100%;
+      text-align: left;
+      padding-left: 6%;
+    }
+  }
+  [class*="content"]:last-child > ul:last-child {
+    border-bottom: 0px;
+  }
+  [class*="content"] [class*="detail"] > li[class*="question"] {
+  }
+}

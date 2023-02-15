@@ -1,0 +1,236 @@
+.listGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  & > li {
+    width: 25%;
+  }
+  & > li [class*="listGrid__element---image"] {
+    position: relative;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  button[class*="arket"][class*="removeBtn"] {
+    width: 48px;
+    height: 48px;
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  & > li {
+    padding: 12px;
+  }
+
+  button[class*="stories"][class*="removeBtn"] {
+    width: 16px;
+    height: 16px;
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    bottom: 26px;
+    right: 26px;
+  }
+  [class*="stories"] .listGrid__element---description h2 {
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+  }
+  [class*="stories"] > li {
+    padding: 2px;
+  }
+
+  @media (max-width: 787px) {
+    & > li {
+      width: 49%;
+    }
+  }
+}
+
+.listGridElement {
+  position: relative;
+  button[class*="removeBtn"] {
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+  }
+  button[class*="removeBtn"] svg {
+    height: 24px;
+  }
+  button[class*="removeBtn"] span {
+    display: none;
+  }
+}
+
+.listGridElementDescription {
+  h2 {
+    font-size: 14px;
+    text-align: center;
+  }
+  p,
+  dl {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+  }
+  dt.color {
+    font-size: 6px !important;
+  }
+  dt {
+    font-size: 12px;
+    padding-left: 12px;
+  }
+  [class*="arket"] h2 {
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  [class*="stories"] [class*="priceValue"] {
+    font-weight: bold;
+  }
+}
+
+// .listGrid__element---sizePicker {
+//   margin-top: 16px;
+//   position: relative;
+// }
+
+// .listGrid__element---sizePicker button.selectSize {
+//   width: 100%;
+//   height: 50px;
+//   background-color: transparent;
+//   border: 1px #b3b3b3 solid;
+//   text-align: left;
+//   margin-bottom: 8px;
+//   padding: 16px;
+//   font-size: 14px;
+// }
+// .listGrid__element---sizePicker button.selectSize.one {
+//   border: 1px #b3b3b3 solid;
+// }
+// .listGrid__element---sizePicker button.selectSize.selectable {
+//   position: relative;
+//   border: 1px solid #000;
+// }
+// .listGrid__element---sizePicker button.selectSize.selectable .selBtn {
+//   display: inline-block;
+//   width: 10px;
+//   height: 10px;
+//   border-left: 1px solid #000;
+//   border-bottom: 1px solid #000;
+//   position: absolute;
+//   right: 16px;
+//   transform: rotate(-45deg);
+// }
+// .listGrid__element---sizePicker button.selectSize.selectable .selBtn.selected {
+//   top: 20px;
+//   transform: rotate(135deg);
+// }
+// .listGrid__element---sizePicker button.addBag {
+//   width: 100%;
+//   height: 50px;
+//   background-color: #000;
+//   color: #fff;
+// }
+
+// .listGrid__element---sizePicker .Dropdown {
+//   margin-top: 0;
+//   border: 1px #000 solid;
+//   position: absolute;
+//   top: 58px;
+//   width: 100%;
+//   background-color: #fff;
+//   z-index: 2;
+// }
+// .listGrid__element---sizePicker .Dropdown li > div {
+//   width: 100%;
+//   background-color: transparent;
+//   text-align: left;
+//   margin-top: 0;
+//   padding: 16px;
+//   font-size: 14px;
+// }
+// .listGrid__element---sizePicker .Dropdown li > div:hover {
+//   background-color: #e6e6e6;
+// }
+
+.ListGridSizePicker {
+  margin-top: 16px;
+  position: relative;
+  button[class*="selectSize"] {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: 1px #b3b3b3 solid;
+    text-align: left;
+    margin-bottom: 8px;
+    padding: 16px;
+    font-size: 14px;
+  }
+  button[class*="selectSize"][class*="one"] {
+    border: 1px #b3b3b3 solid;
+  }
+  button[class*="selectSize"][class*="selectable"] {
+    position: relative;
+    border: 1px solid #000;
+  }
+  button[class*="selectSize"][class*="selectable"] [class*="selBtn"] {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    right: 16px;
+    transform: rotate(-45deg);
+  }
+  button[class*="selectSize"][class*="selectable"]
+    [class*="selBtn"][class*="selected"] {
+    top: 20px;
+    transform: rotate(135deg);
+  }
+  button[class*="addBag"] {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+  }
+
+  button[class*="addBag"] {
+    font-size: 14px;
+  }
+
+  [class*="Dropdown"] {
+    margin-top: 0;
+    border: 1px #000 solid;
+    position: absolute;
+    top: 58px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 2;
+  }
+  [class*="Dropdown"] li > div {
+    width: 100%;
+    background-color: transparent;
+    text-align: left;
+    margin-top: 0;
+    padding: 16px;
+    font-size: 14px;
+  }
+  [class*="Dropdown"] li > div:hover {
+    background-color: #e6e6e6;
+  }
+}
+
+// ARKET CUSTOM
+
+// STORIES CUSTOM

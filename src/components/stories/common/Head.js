@@ -108,7 +108,7 @@ const Head = () => {
                 <div className="items-in-bag">0</div>
               </div>
               <div
-                className={"cart-icon aos-global" + AddHeartAttribute.setPos}
+                className={"cart-icon aos-global " + AddHeartAttribute.setPos}
               >
                 <span className={AddHeartAttribute.iconHeart}></span>
                 <div class="items-in-bag">0</div>

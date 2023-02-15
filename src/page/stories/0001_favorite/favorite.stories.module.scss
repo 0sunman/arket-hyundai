@@ -23,3 +23,32 @@
     }
   }
 }
+
+.FavoriteDescription {
+  & [class*="title"] {
+    text-align: center;
+    font-size: 22px;
+    font-family: "Times New Roman", "KoPubBatang";
+    font-weight: bold !important;
+  }
+  & [class*="title"] a:first-child {
+    font-size: 24px;
+    font-size: 22px;
+    font-family: "Times New Roman", "KoPubBatang";
+    font-weight: bold !important;
+  }
+  @media (max-width: 1024px) {
+    & [class*="title"] {
+      font-size: 22px;
+      font-size: 16px;
+      font-family: "Times New Roman", "KoPubBatang";
+      font-weight: bold !important;
+    }
+    & [class*="title"] a:first-child {
+      font-size: 24px;
+      font-size: 16px;
+      font-family: "Times New Roman", "KoPubBatang";
+      font-weight: bold !important;
+    }
+  }
+}

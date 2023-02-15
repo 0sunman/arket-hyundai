@@ -1,0 +1,61 @@
+/* global */
+.arket-qna-register {
+  @media (max-width: 786px) {
+    .mp-30 {
+      margin-top: 30px !important;
+    }
+    .o-my-page .o-my-page-navigation + div {
+      margin-top: 250px !important;
+    }
+
+    .d1 {
+      width: 100%;
+    }
+    @media (min-width: 787px) {
+      .d15 {
+        width: 75%;
+      }
+      .d2 {
+        width: 50%;
+      }
+      .d3 {
+        width: 33%;
+      }
+      .d4 {
+        width: 25%;
+      }
+      .d5 {
+        width: 20%;
+      }
+    }
+
+    .m1 {
+      width: 100% !important;
+    }
+    .m15 {
+      width: 75% !important;
+    }
+    .m2 {
+      width: 50% !important;
+    }
+    .m3 {
+      width: 33% !important;
+    }
+    .m4 {
+      width: 23% !important;
+    }
+    .m5 {
+      width: 20% !important;
+    }
+
+    button.ml-12 {
+      margin-left: 12px;
+    }
+    button.mr-12 {
+      margin-right: 12px;
+    }
+    button[class*="select"] {
+      text-align: left;
+    }
+  }
+}

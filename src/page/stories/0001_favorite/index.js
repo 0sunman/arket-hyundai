@@ -17,7 +17,7 @@ const PageContent = () => {
         className="o-page-content"
         style={{ "margin-top": "54px" }}
       >
-        <div className="content-section favorite stories">
+        <div className={`content-section ${favoriteStyle.FavoriteDescription}`}>
           <div class="u-cols-sm-8-8 u-cols-md-12-12 u-cols-lg-24-24">
             <div class="title">
               <a
