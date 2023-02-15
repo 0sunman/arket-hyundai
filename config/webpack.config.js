@@ -646,8 +646,8 @@ module.exports = function (webpackEnv) {
           linkType: false,
           // filename: "static/css/[name].[contenthash:8].css",
           // chunkFilename: "static/css/[name].[contenthash:8].chunk.css",
-          filename: "static/css/[name].[contenthash:8].css",
-          chunkFilename: "static/css/[name].[contenthash:8].chunk.css",
+          filename: "static/css/[name].hyundaiDept.css",
+          chunkFilename: "static/css/[name].hyundaiDept.chunk.css",
         }),
       // Generate an asset manifest file with the following content:
       // - "files" key: Mapping of all asset filenames to their corresponding
