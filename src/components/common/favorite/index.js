@@ -45,7 +45,7 @@ const FavList = ({ brand, wholeStyle }) => {
         wholeStyle + " " + `${brand === "stories" && " u-align-to-logo"}`
       }
     >
-      {brand === "stories" && favoriteDatas.length > 0 && (
+      {favoriteDatas.length > 0 && (
         <div
           className=""
           style={{ display: "block", fontSize: "14px", textAlign: "right" }}

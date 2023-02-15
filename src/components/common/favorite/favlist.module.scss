@@ -166,6 +166,9 @@
 .ListGridSizePicker {
   margin-top: 16px;
   position: relative;
+  :global .hide {
+    display: none;
+  }
   button[class*="selectSize"] {
     width: 100%;
     height: 50px;
