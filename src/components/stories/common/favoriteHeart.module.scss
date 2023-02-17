@@ -1,7 +1,31 @@
 .favoriteHeart {
   div[class*="SettingPos"] {
+    float: right;
+    text-align: center;
+    position: relative;
     right: 54px !important;
   }
+  div[class*="SettingPos"]:hover {
+    color: #979797;
+  }
+  div[class*="SettingPos"] [class*="a-icon-bag"] {
+    font-size: 21px;
+  }
+  div[class*="SettingPos"] [class*="items-in-bag"] {
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    font-size: 11px;
+    position: absolute;
+    top: calc(52% - 6px);
+    width: 100%;
+  }
+  div[class*="SettingPos"][class*="is-animating"] {
+    animation: cart-number-addition 0.2s;
+  }
+  div[class*="SettingPos"][class*="is-animating"] [class*="number-in-cart"] {
+    animation: cart-number 0.2s;
+  }
+
   @media (min-width: 1639px) {
     div[class*="SettingPos"] {
       right: calc((100% - 1640px) / 2 + 54px) !important;
