@@ -107,9 +107,13 @@ const Head = () => {
                 <span className="a-icon-bag"></span>
                 <div className="items-in-bag">0</div>
               </div>
-              <div
-                className={"cart-icon aos-global " + AddHeartAttribute.setPos}
-              >
+            </a>
+            <a
+              href="https://www.stories.com/kr_krw/odb/basktList.html"
+              target="_self"
+              className={"a-link fixBug_headerRelative"}
+            >
+              <div className={"aos-global " + AddHeartAttribute.setPos}>
                 <span className={AddHeartAttribute.iconHeart}></span>
                 <div class="items-in-bag">0</div>
               </div>
