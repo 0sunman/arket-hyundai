@@ -1,6 +1,6 @@
 import HomeButton from "../../../components/common/homebutton";
 import Head from "../../../components/cos/common/Head";
-import cosProductSaleStyle from "./cos-product-sale.module.scss";
+import cosProductSaleStyle from "./cos-product-sale-plp.module.scss";
 
 const CosProductSale = ({ list }) => {
   return (

@@ -1,8 +1,7 @@
 import { useEffect } from "react";
 import HomeButton from "../../../components/common/homebutton";
 import Head from "../../../components/cos/common/Head";
-import cosProductSaleStyle from "./cos-product-sale.module.scss";
-import "./test.css";
+import cosProductSaleStyle from "./cos-product-sale-pdp.module.scss";
 
 const CosProductSalePDP = ({ list }) => {
   useEffect(() => {
