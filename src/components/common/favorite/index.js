@@ -64,7 +64,7 @@ const FavList = ({ brand, wholeStyle }) => {
 
       {favoriteDatas.length === 0 && (
         <div className={FavClass}>
-          <h2>좋아하는 상품을 저장해보세요.</h2>
+          {brand === "stories" ? <h2>좋아하는 상품을 저장해보세요.</h2> : ""}
           <p>
             좋아하는 상품을 저장하고 싶으신가요?
             <br />

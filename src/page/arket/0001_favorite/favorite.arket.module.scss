@@ -16,6 +16,14 @@
       color: white;
     }
   }
+  ul {
+    row-gap: 40px;
+    justify-content: space-between;
+    li {
+      padding: 0px;
+      flex-basis: calc(50% - 4px);
+    }
+  }
 }
 
 .customModal {

@@ -7,6 +7,8 @@ import QnaRegister from "./../page/arket/0002_qna/register";
 
 import CosIndex from "../page/cos/cos";
 import CosSEO from "../page/cos/0002_seo";
+import CosProductSale from "../page/cos/0004_cos_product_sale";
+import CosProductSalePDP from "../page/cos/0005_cos_product_sale_pdp";
 
 import StoriesIndex from "../page/stories/stories";
 import StoriesFavorite from "./../page/stories/0001_favorite";
@@ -27,6 +29,20 @@ const routerlist = {
       name: "2022-12-13 COS SEO 컴포넌트",
       path: "/cos/cos-seo",
       element: <CosSEO />,
+      srcURL:
+        "https://github.com/0sunman/arket-hyundai/blob/main/src/page/0000_index/index.js",
+    },
+    {
+      name: "2023-03-05 COS 할인율 [PLP]",
+      path: "/cos/cos-product-sale",
+      element: <CosProductSale />,
+      srcURL:
+        "https://github.com/0sunman/arket-hyundai/blob/main/src/page/0000_index/index.js",
+    },
+    {
+      name: "2023-03-05 COS 할인율 [PDP]",
+      path: "/cos/cos-product-sale-pdp",
+      element: <CosProductSalePDP />,
       srcURL:
         "https://github.com/0sunman/arket-hyundai/blob/main/src/page/0000_index/index.js",
     },

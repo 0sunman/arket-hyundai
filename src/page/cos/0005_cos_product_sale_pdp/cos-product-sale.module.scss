@@ -1,0 +1,13 @@
+.cosProductSale {
+  height: auto;
+  :global .textLineThrough {
+    text-decoration: line-through;
+  }
+  :global .textSalePrice {
+    margin-left: 8px;
+    color: red;
+  }
+  :global .textSaleDetail {
+    margin-bottom: 10px;
+  }
+}
