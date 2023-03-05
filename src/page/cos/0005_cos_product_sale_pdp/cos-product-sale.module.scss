@@ -5,9 +5,17 @@
   }
   :global .textSalePrice {
     margin-left: 8px;
-    color: red;
+    color: #f74;
   }
   :global .textSaleDetail {
     margin-bottom: 10px;
+    color: #f74;
+  }
+  :global .textSaleDetailMo {
+    justify-content: right;
+    margin-bottom: 10px;
+  }
+  :global .textSaleDetailMo p {
+    color: #f74;
   }
 }

@@ -1,7 +1,13 @@
+import { useEffect } from "react";
 import HomeButton from "../../../components/common/homebutton";
 import Head from "../../../components/cos/common/Head";
 import cosProductSaleStyle from "./cos-product-sale.module.scss";
+import "./test.css";
+
 const CosProductSalePDP = ({ list }) => {
+  useEffect(() => {
+    document.querySelector("html").classList.add("apply-ab-test");
+  }, []);
   return (
     <>
       <Head />
@@ -461,6 +467,64 @@ const CosProductSalePDP = ({ list }) => {
                               alt="qrcode"
                             />
                           </p>
+                        </div>
+                        <div
+                          class={
+                            "ab-add__wrap abv2 " +
+                            cosProductSaleStyle.cosProductSale
+                          }
+                        >
+                          <div class="ab-add ab-passed">
+                            <div class="ab-row ab-row-1">
+                              <div class="ab-product-title">데님 오버셔츠</div>
+                              <div class="ab-product-price" id="wishPrice">
+                                <label
+                                  class="a-label js-a-label price textLineThrough"
+                                  id="priceValue"
+                                >
+                                  135,000
+                                </label>
+                                <label
+                                  class="a-label js-a-label price textSalePrice"
+                                  id="priceValue"
+                                >
+                                  135,000
+                                </label>
+
+                                <div></div>
+                              </div>
+                            </div>
+                            <div class="ab-row textSaleDetailMo">
+                              <p>90% OFF</p>
+                            </div>
+                            <div class="ab-row ab-row-2">
+                              <button
+                                type="button"
+                                id="wish-button"
+                                class="a-button is-primary is-disabled is-no-active"
+                              ></button>
+                              <button
+                                type="button"
+                                class="a-button is-primary is-disabled ab-plus2"
+                              >
+                                사이즈
+                              </button>
+                              <button
+                                type="button"
+                                class="a-button is-primary ab-fake-add2"
+                              >
+                                장바구니 담기
+                              </button>
+                              <button
+                                type="button"
+                                id="addBagBtn"
+                                class="a-button is-primary is-disabled ab-sticky"
+                                outofstock="false"
+                              >
+                                장바구니 담기
+                              </button>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </form>
