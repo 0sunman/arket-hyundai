@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.hyundaiDept.css",
-    "main.js": "/static/js/main.9d0aa966.js",
+    "main.js": "/static/js/main.65c84e98.js",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.hyundaiDept.css.map": "/static/css/main.hyundaiDept.css.map",
-    "main.9d0aa966.js.map": "/static/js/main.9d0aa966.js.map"
+    "main.65c84e98.js.map": "/static/js/main.65c84e98.js.map"
   },
   "entrypoints": [
     "static/css/main.hyundaiDept.css",
-    "static/js/main.9d0aa966.js"
+    "static/js/main.65c84e98.js"
   ]
 }
