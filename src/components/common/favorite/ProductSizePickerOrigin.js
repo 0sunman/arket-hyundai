@@ -12,19 +12,14 @@ const ProductSizePicker = ({ id, isSelectable, isClicked }) => {
   return (
     <div className={favlist.ListGridSizePicker}>
       {isSelectable ? (
-        <button
-          className="selectSize selectable arket"
-          onClick={onClickSelectBox}
-        >
-          <span>장바구니 담기</span>
-          <div className={`selBtn ${isClicked ? "selected" : ""}`}>
-            <div className="line1"></div>
-            <div className="line2"></div>
-          </div>
+        <button className="selectSize selectable" onClick={onClickSelectBox}>
+          M<div className={`selBtn ${isClicked ? "selected" : ""}`}></div>
         </button>
       ) : (
-        <button className="selectSize one">장바구니 담기</button>
+        <button className="selectSize one">ONESIZE</button>
       )}
+
+      <button className="addBag">장바구니 담기</button>
 
       {isSelectable && isClicked ? (
         <div className={"Dropdown"}>
@@ -32,7 +27,6 @@ const ProductSizePicker = ({ id, isSelectable, isClicked }) => {
             <li>
               <div>
                 <span>S</span>
-                <span class="rightText">품절 임박</span>
               </div>
               <div>
                 <span>M</span>
